@@ -13,7 +13,7 @@
 .btn-main,
 .btn--main {
   @apply btn-base;
-  @apply bg-yellow text-black rounded-md;
+  @apply bg-yellow text-white rounded-md;
   @apply hover:bg-yellow-dark hover:text-white;
   @apply disabled:bg-yellow-dark disabled:cursor-not-allowed;
 }
