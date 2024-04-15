@@ -32,7 +32,7 @@
       }
 
       .items-toggle {
-        @apply text-white cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block outline-none w-8;
+        @apply text-darkBlue cursor-pointer text-xl leading-none border border-solid border-transparent rounded bg-transparent block outline-none w-8;
         @apply focus:outline-none;
         @apply lg:hidden;
       }
@@ -61,14 +61,12 @@
 
         .text-menu-item a {
           @apply text-base leading-loose text-white;
-          @apply hover:text-yellow;
           @apply lg:px-3;
         }
 
         .button-menu-item {
           a {
             @apply mt-3 inline-block text-black;
-            @apply hover:text-white;
             @apply lg:ml-3 lg:mt-0;
           }
         }
