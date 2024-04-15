@@ -10,12 +10,6 @@ import { isSearchSDKEnabled } from '../../services/SearchSDKService';
 export type MainNavigationProps = ComponentProps & {
   fields: {
     data: {
-      item: {
-        headerLogo: {
-          jsonValue: ImageField;
-          alt: string;
-        };
-      };
       links: {
         children: {
           results: [
