@@ -74,11 +74,11 @@ module.exports = {
         darkest: '#003271',
       },
       yellow: {
-        DEFAULT: '#ffd31c',
-        light: '#ffe060',
-        lightest: '#ffeda4',
-        dark: '#d7ad00',
-        darkest: '#937700',
+        DEFAULT: '#052f3d',
+        light: '#052f3d',
+        lightest: '#052f3d',
+        dark: '#052f3d',
+        darkest: '#052f3d',
       },
       orange: {
         DEFAULT: '#ff8d00',
