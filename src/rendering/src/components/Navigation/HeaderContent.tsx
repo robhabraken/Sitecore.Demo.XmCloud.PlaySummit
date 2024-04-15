@@ -75,7 +75,7 @@ const HeaderContent = (props: HeaderContentProps): JSX.Element => {
 
   return (
     <>
-      <div className={`header-eyebrow ${sxaStyles}`} style="visibility:collapse;height:0;">
+      <div className={`header-eyebrow ${sxaStyles}`}>
         <div className="content">
           {languageSelector}
           {links}

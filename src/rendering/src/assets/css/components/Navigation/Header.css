@@ -1,4 +1,6 @@
 .header-eyebrow {
+  visibility: collapse;
+  height: 0;
   @apply bg-black-lightest text-white;
 
   .content {
