@@ -66,7 +66,7 @@
 
         .button-menu-item {
           a {
-            @apply mt-3 inline-block text-black;
+            @apply mt-3 inline-block text-white;
             @apply lg:ml-3 lg:mt-0;
           }
         }
