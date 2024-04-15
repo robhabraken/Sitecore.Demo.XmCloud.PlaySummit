@@ -57,12 +57,12 @@ const MainNavigation = (props: MainNavigationProps): JSX.Element => {
     <nav className={`main-navigation ${sxaStyles}`}>
       <div className="navigation-content">
         <div className="controls-container container">
-          <Link href="/" className="logo-link">
+          <!--<Link href="/" className="logo-link">
             <Image
               field={props.fields.data.item.headerLogo.jsonValue}
               alt={props.fields.data.item.headerLogo.alt}
             />
-          </Link>
+          </Link>-->
           <button
             className="items-toggle"
             aria-label="open menu"
